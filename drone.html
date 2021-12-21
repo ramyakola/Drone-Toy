@@ -61,18 +61,20 @@
                 <circle cx="50" cy="50" r="44" fill="url(#grad3)" />
                 <circle cx="50" cy="50" r="20" fill="rgb(221, 199, 221)" stroke="white" stroke-width="0.5px"
                     onclick="report()"  id="report" />
-                <path d="M50,10 54,22 46,22Z" fill="rgba(0,0,0,0.8)" onclick="moveRight()" />
-                <path d="M50,91 54,78 46,78Z" fill="rgba(0,0,0,0.8)" onclick="alert('DOWN');" />
-                <path d="M10,50 22,54 22,45Z" fill="rgba(0,0,0,0.8)" onclick="alert('LEFT');" />
+                <path d="M50,10 54,22 46,22Z" fill="rgba(0,0,0,0.8)" onclick="moveTop()" />
+                <path d="M50,91 54,78 46,78Z" fill="rgba(0,0,0,0.8)" onclick="moveDown()" />
+                <path d="M10,50 22,54 22,45Z" fill="rgba(0,0,0,0.8)" onclick="moveLeft();" />
                 <path d="M92,50 78,54 78,46Z" fill="rgba(0,0,0,0.8)" onclick="moveRight();" />
             </svg>
+            
         </div>
-
+       
         <div class="report">
             <button onclick="report()">Attack</button>
         </div>
 
     </section>
+    <p>Note:Please click exactly on Black Buttons On the Joystick</p>
     <script src="js/drone.js"></script>
 </body>
 
