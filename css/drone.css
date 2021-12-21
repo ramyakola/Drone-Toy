@@ -1,0 +1,107 @@
+
+body{
+    background:url('../images/bg2.jfif') no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+canvas{
+    border: 2px solid goldenrod;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+#report :hover{
+    transform: translateX(2px);
+    opacity : 0.5;
+
+
+}
+path:active{
+    transform: translateY(2px)
+}
+input ,select{
+    width: 80px;
+   
+}
+input[type=number],select {
+    width: 60%;
+    padding: 10px 16px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: 2px solid #4CAF50;;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 8px;
+  }
+  
+  input:focus {
+    border: 3px solid rgb(14, 42, 85);
+  }
+
+blink {
+    -webkit-animation: 2s linear infinite blink_effect; /* for Safari 4.0 - 8.0 */
+    animation: 2s linear infinite blink_effect;
+  }
+
+
+@keyframes blink_effect {
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+
+  .game-controller{
+      display: flex;
+      align-items: center;
+      margin: 10px 100px 10px 100px;
+  }
+  .joystick{
+    display: flex;
+      margin : 5% 20% 5% 15%;
+      text-align: center;
+  }
+  .place-holder{
+      /* display: flex; */
+      align-items: center;
+      /* margin-right: 14%; */
+  }
+  button:active{
+      transform: translateY(2px);
+  }
+label{
+   
+    display: block;
+    line-height:2;
+}
+button {
+    background-color: transparent; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
